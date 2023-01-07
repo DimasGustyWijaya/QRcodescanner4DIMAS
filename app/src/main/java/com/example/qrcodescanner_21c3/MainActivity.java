@@ -68,6 +68,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 } catch (android.content.ActivityNotFoundException ex) {
                     Toast.makeText(MainActivity.this, "no phone apk installed.", Toast.LENGTH_LONG);
                 }
+            }else if (Patterns.EMAIL_ADDRESS.matcher(result.getContents()).matches()) {
+                Intent intent = new Intent(Intent.ACTION_SEND, Uri.parse(result.getContents()));
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"dimasgustiwijaya93@gmail.com"});
+                intent.putExtra(Intent.EXTRA_CC, new String[] {"guntoroagun@gmail.com"});
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Fungsi Email");
+                intent.putExtra(Intent.EXTRA_TEXT, "Dimas G. Wijaya - TI.21.C3 - 312110176");
+                try {
+                    startActivity(Intent.createChooser(intent, "Ingin Mengirim Email ?"));
+                } catch (android.content.ActivityNotFoundException ex) {
+                    //do something else
+                }
+
             }
             else {
                 try {
@@ -101,6 +114,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
+
+
     @Override
     public void onClick(View v) {
         //inisialisasi qrcode scanning

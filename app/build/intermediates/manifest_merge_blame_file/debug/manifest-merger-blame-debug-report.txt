@@ -13,122 +13,125 @@
 11    <uses-permission android:name="android.permission.CALL_PHONE" />
 11-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:5:5-68
 11-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:5:22-66
-12    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
-12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
-13    <uses-feature
-13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
-14        android:name="android.hardware.camera"
-14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
-15        android:required="false" />
-15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
-16    <uses-feature
-16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
-17        android:name="android.hardware.camera.front"
-17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
-18        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
-19    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
-20    <uses-feature
-20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
-21        android:name="android.hardware.camera.autofocus"
-21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
-22        android:required="false" />
-22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
-23    <uses-feature
-23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
-24        android:name="android.hardware.camera.flash"
-24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
-25        android:required="false" />
-25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
-26    <uses-feature
-26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
-27        android:name="android.hardware.screen.landscape"
-27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
-28        android:required="false" />
-28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
-29    <uses-feature
-29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
-30        android:name="android.hardware.wifi"
-30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
-31        android:required="false" />
-31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
-32
-33    <application
-33-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:8:5-27:19
-34        android:allowBackup="true"
-34-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:9:9-35
-35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\cd33f26b4f6a5be75c2c675ec5e179dc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-36        android:dataExtractionRules="@xml/data_extraction_rules"
-36-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:10:9-65
-37        android:debuggable="true"
-38        android:fullBackupContent="@xml/backup_rules"
-38-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:11:9-54
-39        android:icon="@mipmap/ic_launcher"
-39-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:12:9-43
-40        android:label="@string/app_name"
-40-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:13:9-41
-41        android:roundIcon="@mipmap/ic_launcher_round"
-41-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:14:9-54
-42        android:supportsRtl="true"
-42-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:15:9-35
-43        android:testOnly="true"
-44        android:theme="@style/Theme.QRCodeScanner21C3" >
-44-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:16:9-55
-45        <activity
-45-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:18:9-26:20
-46            android:name="com.example.qrcodescanner_21c3.MainActivity"
-46-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:19:13-41
-47            android:exported="true" >
-47-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:20:13-36
-48            <intent-filter>
-48-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:21:13-25:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:22:17-69
-49-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:22:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:24:17-77
-51-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:24:27-74
-52            </intent-filter>
-53        </activity>
-54        <activity
-54-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
-55            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-55-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
-56            android:clearTaskOnLaunch="true"
-56-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
-57            android:screenOrientation="sensorLandscape"
-57-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
-58            android:stateNotNeeded="true"
-58-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
-59            android:theme="@style/zxing_CaptureTheme"
-59-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
-60            android:windowSoftInputMode="stateAlwaysHidden" />
-60-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
-61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-64            android:authorities="com.example.qrcodescanner_21c3.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-72        </provider>
-73    </application>
-74
-75</manifest>
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:6:5-66
+12-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+14    <uses-feature
+14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+15        android:name="android.hardware.camera"
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+16        android:required="false" />
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+18        android:name="android.hardware.camera.front"
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+19        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+20    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+25        android:name="android.hardware.camera.flash"
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+28        android:name="android.hardware.screen.landscape"
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+31        android:name="android.hardware.wifi"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+33
+34    <application
+34-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:9:5-28:19
+35        android:allowBackup="true"
+35-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:10:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\cd33f26b4f6a5be75c2c675ec5e179dc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:11:9-65
+38        android:debuggable="true"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:12:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:13:9-43
+41        android:label="@string/app_name"
+41-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:14:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:15:9-54
+43        android:supportsRtl="true"
+43-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:16:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.QRCodeScanner21C3" >
+45-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:17:9-55
+46        <activity
+46-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:19:9-27:20
+47            android:name="com.example.qrcodescanner_21c3.MainActivity"
+47-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:20:13-41
+48            android:exported="true" >
+48-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:21:13-36
+49            <intent-filter>
+49-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:22:13-26:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:23:17-69
+50-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:23:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:25:17-77
+52-->D:\Dimas-main\QRCodeScanner21C3\app\src\main\AndroidManifest.xml:25:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+56            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+57            android:clearTaskOnLaunch="true"
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+58            android:screenOrientation="sensorLandscape"
+58-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+59            android:stateNotNeeded="true"
+59-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+60            android:theme="@style/zxing_CaptureTheme"
+60-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+61            android:windowSoftInputMode="stateAlwaysHidden" />
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\user\.gradle\caches\transforms-3\5ebbadb90e15ce383c96d1bb79b33026\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.qrcodescanner_21c3.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>
